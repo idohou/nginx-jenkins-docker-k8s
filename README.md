@@ -1,4 +1,4 @@
 # web-app
-# new committed
+# new commit
 # commit
 # Done
