@@ -19,15 +19,16 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="../css/default.css" type="text/css">
+	<link rel="stylesheet" href="../css/layout.css" type="text/css">
+   <link rel="stylesheet" href="../css/media-queries.css" type="text/css">
+   <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css"> 
 
+  
    <!-- Script
    ================================================== -->
-   <script src="js/modernizr.js"></script>
-   <script src="main.js"></script>
+   <script src="../js/modernizr.js"></script>
+   <script src="../main.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -85,7 +86,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/1684782065815.jpg" alt="" />
+            <img class="profile-pic"  src="../images/1684782065815.jpg" alt="" />
 
          </div>
 
@@ -93,7 +94,7 @@
 
             <h2>ABOUT ME</h2>
 
-            <p> Hi, I'm Gwyneth Pena-Siguenza, <span>Training Architect at <a href="https://acloud.guru">A Cloud Guru</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure MVP</a></span>
+            <p> Hi, I'm Idowu Olokungbemi, <span>Training Devop Engineer at <a href="https://idcloud.ca">ID-CLOUD</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure MVP</a></span>
                and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
                
          </br>
