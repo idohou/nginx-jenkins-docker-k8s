@@ -95,11 +95,13 @@
             <h2>ABOUT ME</h2>
 
             <p> Hi, I'm Idowu Olokungbemi, <span>Training Devop Engineer at <a href="https://idcloud.ca">ID-CLOUD</a></span>, <span> <a href="https://mvp.microsoft.com/en-us/PublicProfile/5003866">Azure MVP</a></span>
-               and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
+   <!-- Redo  Section
+   ================================================== -->           
+<!--and <span><a href="https://youtube.com/madebygps">YouTuber</a></span> focused on making cloud learning more accessible and less daunting for everyone. 
                
          </br>
       </br>
-       I built this page as part of the <span><a href="https://github.com/madebygps/cgc-azure-resume">Cloud Guru Azure Resume Challenge.</a></span>
+       I built this page as part of the <span><a href="https://github.com/idohou/web-app">Devops Resume Challenge.</a></span>
             
 
          </div> <!-- end .main-col -->
@@ -127,8 +129,8 @@
 
                <div class="twelve columns">
 
-                  <h3>AWS Certified Developer Associate</h3>
-                  <p class="info"><em class="date">March 2018</em></p>
+                  <h3>AWS Certified Practitioner </h3>
+                  <p class="info"><em class="date">December 2022</em></p>
 
                </div>
 
@@ -138,7 +140,7 @@
 
                <div class="twelve columns">
 
-                  <h3>Azure Fundamentals AZ900</h3>
+                  <h3>Microsoft Azure Administrator AZ104</h3>
                   <p class="info"><em class="date">July 2020</em></p>
 
                </div>
@@ -149,8 +151,8 @@
 
                <div class="twelve columns">
 
-                  <h3>LPI Linux Essentials</h3>
-                  <p class="info"><em class="date">February 2021</em></p>
+                  <h3>Managing Microsoft Teams</h3>
+                  <p class="info"><em class="date">February 2020</em></p>
 
                </div>
 
@@ -175,8 +177,8 @@
 
                <div class="twelve columns">
 
-                  <h3>A Cloud Guru</h3>
-                  <p class="info">Associate Community Training Architect <span>&bull;</span> <em class="date">November 2020 - Present</em></p>
+                  <h3>ABM</h3>
+                  <p class="info">Desktop Administrator  <span>&bull;</span> <em class="date">January 2023 - Present</em></p>
 
                   <p>
                   <li>Creating awesome cloud computing content.</li> 
@@ -190,8 +192,8 @@
 
                <div class="twelve columns">
 
-                  <h3>Powwr | A Cognitive Energy Company</h3>
-                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">May 2019 - August 2020</em></p>
+                  <h3>LionBridge INC</h3>
+                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">September 2022 - December  2022</em></p>
 
                   <p>
                      <li>Developed cloud native solutions in Azure</li>
@@ -207,7 +209,7 @@
 
                <div class="twelve columns">
 
-                  <h3>Powwr | A Cognitive Energy Company</h3>
+                  <h3>Energy Commission of Nigeria </h3>
                   <p class="info">System Administrator <span>&bull;</span> <em class="date">September 2018 - May 2019</em></p>
 
                   <p>
