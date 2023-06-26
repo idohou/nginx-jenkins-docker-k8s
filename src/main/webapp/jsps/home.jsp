@@ -21,7 +21,7 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="../css/fonts/default.css" type="text/css">
+   <link rel="stylesheet" href="default.css" type="text/css">
 	<link rel="stylesheet" href="../css/fonts/layout.css" type="text/css">
    <link rel="stylesheet" href="../css/fonts/media-queries.css" type="text/css">
    <link rel="stylesheet" href="../css/fonts/magnific-popup.css" type="text/css"> 
