@@ -1,23 +1,33 @@
 node{
-    def MHD = tool name: "maven3.8.4"
-    stage('code'){
-        git branch: 'development', url: 'https://github.com/team16flight/web-app.git'
+     
+    stage('SCM Checkout'){
+        git credentialsId: 'GIT_CREDENTIALS', url:  'https://github.com/idohou/Jenkins-Docker-K8s-Spring-boot-mongo.git',branch: 'master'
     }
-    stage('BUILD'){
-       sh "${MHD}/bin/mvn clean package"
- 
+   
+    stage(" Maven Clean Package"){
+      def mavenHome =  tool name: "Maven-3.8.5", type: "maven"
+      def mavenCMD = "${mavenHome}/bin/mvn"
+      sh "${mavenCMD} clean package"
+      
+    } 
+    stage('Build Docker Image'){
+        sh 'docker pull nginx'
+       
+        sh 'docker build -t nginx .'
     }
-    /*
-    stage('deploy'){
-  sshagent(['tomcat']) {
-  sh "scp -o StrictHostKeyChecking=no target/*war ec2-user@172.31.15.31:/opt/tomcat9/webapps/"
-}
-}
-stage('email'){
-emailext body: '''Build is over
 
-Acada
-437212483''', recipientProviders: [developers(), requestor()], subject: 'Build', to: 'tdapp@gmail.com'
-}
-    */
+
+    stage('Push Docker Image'){
+          //withCredentials([usernameColonPassword(credentialsId: 'dockerhub', variable: 'password')]) {
+          sh "docker login -u idowudevops -p Windyspark77!"
+         sh " sh 'docker tag nginx idowudevops/nginx"
+
+        sh 'docker push idowudevops/nginx'
+     }
+     
+
+	stage("Deploy To Kuberates Cluster"){
+        sh 'kubectl apply -f idowu.yml'
+      }
+     
 }
