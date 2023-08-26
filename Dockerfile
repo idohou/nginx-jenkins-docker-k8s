@@ -1,2 +1,2 @@
-FROM tomcat:jdk21-openjdk
-COPY target/*.war /usr/local/tomcat/webapps/idowu.war
+FROM nginx
+COPY nginx.conf /etc/nginx/nginx.conf
