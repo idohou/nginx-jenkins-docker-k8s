@@ -12,7 +12,7 @@ node{
     } 
     stage('Build Docker Image'){
         sh 'docker pull nginx'
-       
+        
         sh 'docker build -t nginx .'
     }
 
