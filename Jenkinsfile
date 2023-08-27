@@ -1,7 +1,7 @@
 node{
      
     stage('SCM Checkout'){
-        git credentialsId: 'GIT_CREDENTIALS', url:  'https://github.com/idohou/Jenkins-Docker-K8s-Spring-boot-mongo.git',branch: 'master'
+        git credentialsId: 'GIT_CREDENTIALS', url:  'https://github.com/idohou/nginx.git',branch: 'master'
     }
    
     stage(" Maven Clean Package"){
