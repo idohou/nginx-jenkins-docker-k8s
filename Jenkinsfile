@@ -20,7 +20,7 @@ node{
     stage('Push Docker Image'){
           //withCredentials([usernameColonPassword(credentialsId: 'dockerhub', variable: 'password')]) {
           sh "docker login -u idowudevops -p Windyspark77!"
-         sh " sh 'docker tag nginx idowudevops/nginx"
+          sh 'docker tag nginx idowudevops/nginx"
 
         sh 'docker push idowudevops/nginx'
      }
